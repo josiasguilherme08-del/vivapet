@@ -1,10 +1,10 @@
-export default function necessidades() {
+
+export default function Necessidades(){
 
     return(
 
-     <div> 
+        <div>
             <h1> Cadastrar necessidades do animal </h1>
-     </div> 
-     )
-
+        </div>
+    );
 }

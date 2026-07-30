@@ -1,8 +1,10 @@
+
 export default function Vincular() {
 
-    return(
+    return (
+
         <div>
-            <h1> Vincular cuidadores </h1>
+            <h1> Vincular cuidador </h1>
         </div>
-    )
+    );
 }

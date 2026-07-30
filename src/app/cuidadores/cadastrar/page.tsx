@@ -1,11 +1,10 @@
+
 export default function Cadastrar() {
 
-    return(
+    return (
 
         <div>
             <h1> Cadastrar novo cuidador </h1>
         </div>
-    )
-
-
+    );
 }
