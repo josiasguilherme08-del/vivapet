@@ -1,10 +1,9 @@
-import Footer from "../Footer/Footer";
 import AcoesRapidas from "./AcoesRapidas/AcoesRapidas";
 import BoasVindas from "./BoasVindas/BoasVindas";
 import CartaoDashboard from "./CartaoDashboard/CartaoDashboard";
 
 import "./Home.css"
-import UltimasAtividades from "./UltimasAtividades/UltimasAtividads";
+import UltimasAtividades from "./UltimasAtividades/UltimasAtividades";
 
 export default function Home(){
 
@@ -14,7 +13,7 @@ export default function Home(){
 
             <main className="home">
 
-                <BoasVindas />
+            <BoasVindas />
 
 
             
@@ -39,8 +38,6 @@ export default function Home(){
                 <AcoesRapidas />
 
                 <UltimasAtividades />
-
-                <Footer />
 
             </main>
 

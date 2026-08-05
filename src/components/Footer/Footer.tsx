@@ -17,6 +17,7 @@ export default function Footer() {
 
                 </div>
 
+
                 <div className="footer-centro">
 
                     <h4> Mapa de navegação </h4>
@@ -30,6 +31,7 @@ export default function Footer() {
 
                 </div>
 
+
                 <div className="footer-direita">
 
                     <h4> Contato: </h4>
@@ -39,20 +41,22 @@ export default function Footer() {
                     </p>
 
                     <p>
-                        (84) 9887-6655
+                        (84) 98877-6655
                     </p>
 
                 </div>
 
+
             </div>
+
 
             <div className="footer-copyright">
-
                 <p>
-                    &copy; Copyright 2026 Senac RN, Todos os direitos reservados.
+                    &copy; Copyright 2026 Senac RN. Todos os direitos reservados.
                 </p>
             </div>
-        </footer>
-    )
 
+
+        </footer>
+    );
 }

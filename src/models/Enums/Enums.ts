@@ -1,13 +1,20 @@
 export enum TipoAnimal {
-    GATO = 'GATO',
+
+    GATO = "GATO",
     CACHORRO = "CACHORRO"
+
 }
+
+
 
 export enum SexoAnimal {
 
     MACHO = "MACHO",
     FEMEA = "FEMEA"
+
 }
+
+
 
 export enum StatusAnimal {
 
@@ -15,7 +22,10 @@ export enum StatusAnimal {
     EM_ADOCAO = "EM_ADOCAO",
     ADOTADO = "ADOTADO",
     FALECIDO = "FALECIDO"
+
 }
+
+
 
 export enum TipoNecessidade {
 
@@ -23,11 +33,15 @@ export enum TipoNecessidade {
     ALIMENTACAO = "ALIMENTACAO",
     HIGIENE = "HIGIENE",
     ENRIQUECIMENTO = "ENRIQUECIMENTO"
+
 }
+
+
 
 export enum TipoCuidador {
 
     VETERINARIO = "VETERINÁRIO",
-    VOLUNTARIO = "VOLUNTARIO",
-    ESTAGIARIO = "ESTÁGIARIO"
+    VOLUNTARIO = "VOLUNTÁRIO",
+    ESTAGIARIO = "ESTAGIÁRIO"
+
 }

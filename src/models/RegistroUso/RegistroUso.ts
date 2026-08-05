@@ -1,7 +1,7 @@
 import { Animal } from "../Animal/Animal";
 import { Cuidador } from "../Cuidador/Cuidador";
 
-export class RegistroUso{
+export class RegistroUso {
 
     private readonly _id: string;
     private readonly _dataUso: Date;
@@ -11,43 +11,36 @@ export class RegistroUso{
     private readonly _cuidador: Cuidador;
     private readonly _animal: Animal;
 
-
-    constructor(id: string, dataUso: Date, quantidadeUso: number, observacoes: string, cuidador: Cuidador, animal: Animal){
+    constructor(id: string, dataUso: Date, quantidadeUso: number, observacoes: string, cuidador: Cuidador, animal: Animal) {
         this._id = id;
         this._dataUso = dataUso;
         this._quantidadeUso = quantidadeUso;
         this._observacoes = observacoes;
         this._cuidador = cuidador;
         this._animal = animal;
-
     }
 
-    public get id(){
+    public get id() {
         return this._id;
     }
 
-    public get dataUso(){
+    public get dataUso() {
         return this._dataUso;
     }
 
-    public get quantidadeUso(){
+    public get quantidadeUso() {
         return this._quantidadeUso;
     }
 
-    public get observacoes(){
+    public get observacoes() {
         return this._observacoes;
     }
 
-    public get cuidador(){
+    public get cuidador() {
         return this._cuidador;
     }
 
-    public get animal(){
+    public get animal() {
         return this._animal;
     }
-
-    
-
-
-    
 }
