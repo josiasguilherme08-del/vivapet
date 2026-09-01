@@ -44,4 +44,15 @@ export class AnimalRepository {
         await db.query(query, values);
     }
 
+
+    public async listarAnimaisPorCuidador(id_cuidador: number){
+
+        const query = `SELECT * FROM animal WHERE id_cuidador = $1 ORDER BY id_animal`;
+
+        const { rows } =  await db.query(query, [id_cuidador]);
+
+        return rows.map(row => new Animal(row.id_animal, row.nome, row.tipo as TipoAnimal, row.raca, row.sexo as SexoAnimal, new Date(row.data_nascimento), new Date(row.data_entrada_abrigo), row.observacoes, row.status as StatusAnimal))
+        
+    }
+
 }
